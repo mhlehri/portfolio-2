@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-
 const Skills = () => {
   return (
     <div className="mx-auto px-5 py-14 lg:py-28" id="skills">

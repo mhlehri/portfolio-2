@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 const Footer = () => {
   return (
     <div className="py-12 bg-[#174074] text-white">
