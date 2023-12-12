@@ -37,7 +37,7 @@ const About = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col w-2/3 sm:flex-row justify-between lg:flex-col gap-8 lg:w-1/3 mx-auto">
+        <div className="flex flex-col md:w-2/3 sm:flex-row justify-between lg:flex-col gap-8 lg:w-1/3 md:mx-auto">
           <div>
             <h1 className="text-xl lg:text-2xl font-medium mb-2">Education</h1>
             <div className="opacity-90 mb-4">

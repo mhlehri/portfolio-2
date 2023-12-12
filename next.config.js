@@ -7,7 +7,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "skillicons.dev",
-        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "gifdb.com",
       },
     ],
   },

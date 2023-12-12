@@ -7,7 +7,15 @@ const Banner = () => {
     <div className="flex flex-col-reverse gap-5 md:flex-row justify-between items-center md:h-[700px] max-w-screen-xl mx-auto px-5 ">
       <div className="md:text-left text-center">
         <h1 className="text-xl md:text-2xl lg:text-4xl mb-2 md:mb-4">
-          Hi👋, I&apos;m a<br />
+          Hi{" "}
+          <Image
+            src="https://gifdb.com/images/high/cute-wave-emoji-hand-59s88kk0zj3xho40.webp"
+            alt="hi emoji"
+            width="50"
+            height="50"
+            className="inline"
+          />
+          , I&apos;m a<br />
           <span className="text-2xl md:text-3xl lg:text-5xl font-bold">
             Frontend Developer
           </span>
