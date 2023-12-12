@@ -1,7 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scrollbar-width: 11px;
+  scrollbar-color: #174074 #999fd6;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 11px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #999fd6;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00487c;
+  border-radius: 14px;
+  border: 2px solid #999fd6;
+}
 body {
   background: radial-gradient(
     circle,
@@ -9,5 +30,8 @@ body {
     rgb(237, 253, 255) 100%
   );
   color: #174074;
+  font-family: "Ubuntu", sans-serif;
+}
+html {
   scroll-behavior: smooth;
 }
