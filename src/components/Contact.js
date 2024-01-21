@@ -11,8 +11,8 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_zk0y0f7",
-        "template_6ezgw36",
+        process.env.emailJS_service_id,
+        process.env.emailJS_template_id,
         form.current,
         "K7_A3hcVSMQuWp5rV"
       )
@@ -22,7 +22,7 @@ const ContactUs = () => {
           if (result.text === "OK") {
             setOk(true);
             e.target.from_name.value = "";
-            e.target.user_email.value = "";
+            e.target.email.value = "";
             e.target.message.value = "";
           }
         },
@@ -91,7 +91,7 @@ const ContactUs = () => {
               required
               type="email"
               placeholder="Your Email"
-              name="user_email"
+              name="email"
               className="p-3 outline-none drop-shadow-md hover:drop-shadow-xl  rounded-lg"
             />
 
